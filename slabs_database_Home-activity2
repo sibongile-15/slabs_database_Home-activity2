@@ -1,0 +1,10 @@
+Home Activity 2     
+The Cost of Data Redundancy 
+
+
+. Data Redundancy:* Storing the same address in 3 tables breaks data integrity. If the customer updates their address and you miss one table, you now have 3 different addresses — wrong deliveries, wrong invoices, no single truth.
+
+. Foreign Key:* It stops orphan records. You can't make an order for a customer that doesn't exist, and you can't delete a customer who still has orders.
+
+
+
